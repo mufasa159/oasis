@@ -12,8 +12,8 @@ float humidity;
 float temperature;
 float moisture;
 
-float MAX_MOIST = 250.00;    // Higher ? soil is dry
-float MIN_HUMIDITY = 40.00;  // Higher ? lack of water on air
+float MAX_MOIST = 300.00;    // Higher ? soil is dry
+float MIN_HUMIDITY = 45.00;  // Lower  ? lack of water on air
 
 int water_pump = 6;          // D6 Pin
 
