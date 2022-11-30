@@ -20,8 +20,8 @@ enum Moisture {
   VERY_WET = 150,
   WET = 200,
   NORMAL = 350,
-  DRY = 400,
-  VERY_DRY = 550
+  DRY = 650,
+  VERY_DRY = 800
 };
 
 // -------------------------------------------------
@@ -30,9 +30,9 @@ float humidity;
 float temperature;
 float moisture;
 
-const int DISCONNECTED = 800;      // Higher ? sensor possibly disconnected
+const int DISCONNECTED = VERY_DRY; // Higher ? sensor possibly disconnected
 Moisture MAX_MOIST = NORMAL;       // Higher ? soil is dry
-const int TOO_DRY = 650;           // Higher ? too dry to consider humidity
+const int TOO_DRY = DRY;           // Higher ? too dry to consider humidity
 const float MIN_HUMIDITY = 40.00;  // Lower  ? lack of water on air
 
 boolean pumpOn = false;
