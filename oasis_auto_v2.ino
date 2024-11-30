@@ -1,9 +1,10 @@
-// Author: Mufasa A.
-// Email: hello@mufasa.cc
-// Description: An auto irrigation system for indoor plants
+// an auto irrigation system for indoor plants
+//
+// by mufasa159 (https://github.com/mufasa159)
 
 
 #include <DHT.h>
+
 #define PIN_BUTTON 2
 #define PIN_DHT22 3
 #define PIN_LED 4

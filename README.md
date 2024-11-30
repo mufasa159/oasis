@@ -1,2 +1,2 @@
 ### Watering System
-An automated plant watering system powered by Arduino Nano. Includes bunch of other sensors.
+An automated / remote plant watering system powered by Arduino Nano / ESP8266.

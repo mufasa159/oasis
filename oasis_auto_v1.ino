@@ -1,6 +1,7 @@
-// Author: Mufasa A.
-// Email: hello@mufasa.cc
-// Description: Program for auto-watering system for indoor plants
+// an auto irrigation system for indoor plants
+//
+// by mufasa159 (https://github.com/mufasa159)
+
 
 #include <DHT.h>
 
